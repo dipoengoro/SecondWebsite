@@ -1,57 +1,73 @@
 body {
-    background-color: rgb(243, 233, 255);
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(244, 234, 255);
+}
+header {
+  text-align: center;
+  padding: 32px;
 }
 h1 {
-    color: rgb(89, 50, 205);
+  font-size: 52px;
+  color: rgb(88, 49, 196);
 }
 img {
-    width: 200px;
+  width: 300px;
 }
 main {
-    width: 700px;
-    background-color: rgb(89, 50, 205);
-    color: rgb(251, 243, 255);
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
+  width: 700px;
+  background-color: rgb(122, 74, 218);
+  color: rgb(248, 241, 255);
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 8px;
 }
 h2 {
-    text-align: start;
-}
-em {
-    font-style: normal;
-    font-weight: bold;
+  text-align: start;
 }
 main p {
-    text-align: start;
+  text-align: start;
 }
 ul {
-    padding: 0;
-    text-align: start;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  list-style: none;
 }
 li {
-    padding: 0 13px;
-    margin: 10px 0;
+  margin: 14px 0;
+  border-left: 5px solid transparent;
+  padding-left: 10px;
 }
-main a {
-    background-color: rgb(251, 235, 174);
-    text-decoration: none;
-    padding: 2px 6px;
-    border-radius: 5px;
-    color: rgb(41, 8, 64);
+a {
+  background-color: rgb(255, 237, 177);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: rgb(36, 3, 102);
+}
+a:hover,
+a:active {
+  background-color: rgb(250, 201, 39);
+}
+footer {
+  text-align: center;
+}
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
 }
 footer a {
-    background-color: rgb(249, 201, 39);
-    text-decoration: none;
-    padding: 10px;
-    color: rgb(81, 44, 0);
-    border-radius: 8px;
+  padding: 12px 20px;
+  background-color: rgb(250, 201, 39);
+  color: rgb(66, 51, 4);
+}
+footer a:hover,
+footer a:active {
+    background-color: rgb(255, 186, 58);
 }
 .highlighted {
-    border-inline-start: 3px solid rgb(245, 210, 84);
-    color: rgb(239, 219, 189);
-    padding: 0 10px;
-    margin: 10px 0;
+  border-color: rgb(247, 209, 85);
+  color: rgb(255, 237, 177);
+  padding: 0 10px;
+  margin: 10px 0;
 }
